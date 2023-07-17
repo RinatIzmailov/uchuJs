@@ -3,4 +3,17 @@ const myCity = {
     popular: true,
     country: 'USA'
 }
-a()
+
+myCity.country = 'Canada'
+
+myCity.city = 'Calgary'
+
+myCity.yearOfArrive = 2024
+
+myCity.monthOfArrive = 'ХЗ'
+
+myCity['monthOfArrive'] = 'ХЗ'
+
+
+
+console.log(myCity)

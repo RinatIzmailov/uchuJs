@@ -1,1 +1,4 @@
-console.log('Privet')
+const a = () => {
+console.log('privet')
+}
+a()
